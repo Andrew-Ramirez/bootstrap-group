@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #87909e;
+}
+
+.make-it-primary {
+    height: 3rem;
+    background-color: #007bff;
+}
+
+.preview-btn button {
+    padding: 0.5rem;
+}
+
+.row.bottom-nav {
+    padding-bottom: 3.125rem;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2rem;
+}
+.social ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    width: 54%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social li {
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.footer-menu a {
+    font-weight: bold;
+    line-height: 2;
+    color: #000;
+}
+
+.footer-menu li {
+    padding-left: 4em;
+}
+
+.footer-menu li:first-child {
+    padding-left: 0;
+}
+
+ul .fm-list {
+    list-style: none;
+    padding-left: 0;
+}
+.fm-list li a {
+    font-weight: normal;
+    color: #87909e;
+}
+
+.fm-list li {
+    padding-left: 0;
+    font-size: 0.85em;
+    line-height: 2.5;
+}
+
+.copyright-info a {
+    color: #007bff;
+}
