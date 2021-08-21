@@ -7,15 +7,51 @@ body {
     color: #87909e;
 }
 
-.make-it-primary {
-    height: 3rem;
+.about-tts {
+    padding-left: 9rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+}
+.about-tts h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #30343b
+}
+.about-tts h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #30343b
+}
+.preview-talent {
     background-color: #007bff;
 }
-
-.preview-btn button {
-    padding: 0.5rem;
+.make-it-primary {
+    height: 3rem;
+    background-color: #0054fe;
 }
 
+.ready-hire {
+    background-color: #0054fe;
+    padding-left: 6rem;
+}
+
+.preview-btn {
+    background-color: #0054fe;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6rem;
+}
+.preview-btn button {
+    padding: 0.5rem;
+    background-color: #0054fe;
+}
+
+.footer-nav {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 3rem;
+}
 .row.bottom-nav {
     padding-bottom: 3.125rem;
     border-bottom: 1px solid #ebebeb;
