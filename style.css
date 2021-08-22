@@ -7,6 +7,73 @@ body {
     color: #87909e;
 }
 
+.testimonial-title {
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+.testimonial-title h2 {
+    font-weight: 600;
+    color: #30343b;
+}
+.testimonial .row {
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.testimonial .col-md-4 {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 45px; */
+    /* padding-right: 45px; */
+}
+
+.testimonial .card {
+    background-color: #fff;
+    position: relative;
+    width: 80%;
+    border: solid 1px;
+    border-color: #e5e7ea;
+    /* height: 100%; */
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 6px 0px;
+    padding: 0 1.7rem 2rem 1.7rem;
+    margin-top: 68px;
+}
+
+.testimonial .card-img-top {
+    background-image: url("https://www.techtalentsouth.com/hubfs/jespey.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    margin-top: -48px;
+    /* margin-left: 35px; */
+    border: 2px solid #0054fe;
+}
+
+.card-bio h6 {
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.card-quote p {
+    margin-top: 1.5rem;
+}
+
+.card-title h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #30343b;
+
+}
+
+.card-bio h6 {
+    font-size: .75rem;
+    font-weight: 600;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
 .about-tts {
     padding-left: 9rem;
     padding-bottom: 3rem;
@@ -15,12 +82,14 @@ body {
 .about-tts h5 {
     font-size: 1rem;
     font-weight: 600;
-    color: #30343b
+    color: #30343b;
+    margin-bottom: 2.5rem;
 }
 .about-tts h3 {
     font-size: 1.75rem;
     font-weight: 600;
-    color: #30343b
+    color: #30343b;
+    margin-bottom: 1.5rem;
 }
 .preview-talent {
     background-color: #007bff;
@@ -67,7 +136,7 @@ body {
 }
 
 .social li {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     display: inline-block;
     text-align: center;
 
@@ -87,7 +156,7 @@ body {
 }
 
 .footer-menu li {
-    padding-left: 4em;
+    padding-left: 4rem;
 }
 
 .footer-menu li:first-child {
@@ -105,7 +174,7 @@ ul .fm-list {
 
 .fm-list li {
     padding-left: 0;
-    font-size: 0.85em;
+    font-size: 0.85rem;
     line-height: 2.5;
 }
 
