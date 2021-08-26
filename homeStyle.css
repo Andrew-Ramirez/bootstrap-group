@@ -1,9 +1,72 @@
+* {
+	font-family: 'Poppins';
+}
+
+/* .jumbotron::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(51, 50, 61, 0.5);
+} */
+
+
+
 .jumbotron {
 	background-image:url('https://f.hubspotusercontent40.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=2880&name=new%20website%20hero%20background%20image%20%281%29.png'); 
-	padding: 20%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 100%;
 	width: 100%;
 	background-position:  center;
-    color: white
+	color: white !important;
+	padding: 20%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.jumbotron::after {
+	box-sizing: border-box;
+} 
+
+.top-caption {
+	text-align: center;
+	font-size: 26px;
+}
+
+.top-caption p {
+	font-family: Poppins;
+	color: #87909e;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.col-sm {
+	padding-top: 100px;
+	font-weight:300;
+}
+
+.col-sm p {
+	color: #87909e;
+	font-weight: 300;
+}
+
+h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+	text-align: center;
+}
+
+body nav div{
+	text-align: left;
 }
